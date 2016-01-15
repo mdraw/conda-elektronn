@@ -1,6 +1,6 @@
 package:
   name: elektronn-git
-  version: 'git'
+  version: 1.0.0
 
 source:
     git_url: https://github.com/ELEKTRONN/ELEKTRONN.git
@@ -15,7 +15,7 @@ requirements:
     - matplotlib
 
   run:
-    - python =2.7*
+    - python 2.7*
     - theano
     - h5py
     - matplotlib
