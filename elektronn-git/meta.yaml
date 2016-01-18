@@ -9,6 +9,8 @@ requirements:
   build:
     - python 2.7*
     - setuptools
+    - numpy
+    - scipy
     - cython
     - theano
     - h5py
@@ -16,6 +18,8 @@ requirements:
 
   run:
     - python 2.7*
+    - numpy
+    - scipy
     - theano
     - h5py
     - matplotlib
